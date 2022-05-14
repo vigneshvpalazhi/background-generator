@@ -1,0 +1,62 @@
+body{
+    font: 'Raleway',sans-serif;
+    color: rgba(0, 0, 0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    top: 15%;
+    background: linear-gradient(to right,red,yellow);
+
+}
+h1{
+    font: 600 3.5em 'Raleway' ,sans-serif;
+    color: rgba(0, 0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    width: 100%;
+
+
+}
+h3{
+    font :900 1em 'Raleway',sans-serif;
+    color: rgba(0, 0,0,.5);
+    text-align: center;
+    text-transform:none;
+    letter-spacing:0.01em;    
+}
+footer{
+    color: rgba(0, 0, 0,.3);
+    letter-spacing: 0;
+    text-transform:none;
+    margin-top: 460px;
+    margin-left: 1300px;
+    
+
+
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 25px;
+        color: rgba(0, 0, 0,.5);
+    
+    
+    
+    }
+    h3{
+        font-size: 10px;
+        letter-spacing: 0cm;
+    }
+    footer{
+        color: rgba(0, 0, 0,.3);
+        letter-spacing: 0;
+        text-transform:none;
+        margin-top: 470px;
+        margin-left: 120px;
+
+
+    }
+    
+    
+}
